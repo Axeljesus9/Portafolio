@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+html, body{
+  margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #07050f;
+    background-image:
+      radial-gradient(ellipse at 20% 50%, rgba(40, 64, 200, 0.35) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 20%, rgba(8, 6, 125, 0.569) 0%, transparent 50%),
+      radial-gradient(ellipse at 60% 80%, rgba(100, 0, 160, 0.2) 0%, transparent 55%);
+    background-attachment: fixed;
+    color: #f8fafc;
+
+}
+}
+@keyframes infinirescroll{
+  frm{
+    transform: translatex(0);
+  }
+  to{
+    transform: translatex(-50%);
+  }
+}
+.animate-infinite-scroll {
+  animation: infinitescroll 20s linear infinite;
+}
+
