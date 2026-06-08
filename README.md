@@ -4,7 +4,7 @@
 
 Egresado en **Ingeniería de Software** con pasión por la construcción de arquitecturas limpias, la optimización algorítmica y el diseño de soluciones lógicas. Mi enfoque técnico está centrado en el ecosistema de **Java** y la Programación Orientada a Objetos (POO), expandiendo constantemente mis habilidades hacia el desarrollo robusto de APIs y la persistencia de datos.
 
-Me considero un ingeniero versátil: tengo la capacidad de estructurar lógica compleja en el **Backend**, diseñar flujos interactivos y dinámicos en el **Frontend** con React y Tailwind CSS, y actualmente me encuentro certificándome para dar el salto hacia la **Ingeniería de Datos (Data Engineering)**.
+Me considero un ingeniero versátil: tengo la capacidad de estructurar lógica compleja en el **Backend**, diseñar flujos interactivos y dinámicos en el **Frontend**  y actualmente me encuentro certificándome para dar el salto hacia la **Ingeniería de Datos (Data Engineering)**.
 
 ---
 
