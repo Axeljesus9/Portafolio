@@ -419,30 +419,25 @@ function Home() {
                 </span>
               </div>
               <p className="text-slate-300 leading-relaxed text-base">
-                Sólida base en diseño de soluciones lógicas, gestión de bases de
-                datos relacionales y optimización de código.
+                Durante mi paso por la Ingeniería de Software, compaginé los
+                estudios con el trabajo, lo que me obligó a desarrollar una
+                disciplina estricta para dominar desde el desarrollo frontend
+                con React y Tailwind, hasta el backend con Java, Spring Boot y
+                MySQL. Mi experiencia real se consolidó en las ferias académicas
+                y en el diseño de proyectos prácticos, donde me encargué de
+                estructurar bases de datos relacionales, conectar APIs y
+                construir dashboards dinámicos que unificaban datos de distintas
+                fuentes. Estas experiencias me enseñaron a trabajar en equipo
+                bajo presión, optimizar código para resolver problemas reales y
+                defender técnicamente mis soluciones ante audiencias exigentes.
+                Al final, la carrera fue un laboratorio donde aprendí a traducir
+                requerimientos lógicos en herramientas funcionales, dejándome
+                listo para integrarme a entornos de desarrollo y analítica
+                profesional.
               </p>
             </div>
 
-            <div className="bg-slate-900/20 backdrop-blur-sm border border-white/5 p-6 rounded-2xl">
-              <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
-                <div>
-                  <h4 className="text-xl font-bold text-white">
-                    Centros de Bachillerato Tecnológico
-                  </h4>
-                  <p className="text-sm font-medium text-orange-400/80">
-                    Técnico en Informática
-                  </p>
-                </div>
-                <span className="text-xs font-semibold px-3 py-1 bg-orange-400/10 text-orange-400 rounded-full border border-orange-400/20 w-max">
-                  Finalizado
-                </span>
-              </div>
-              <p className="text-slate-300 leading-relaxed text-base">
-                Formación tecnológica inicial que consolidó las bases de la
-                lógica de programación y desarrollo de software.
-              </p>
-            </div>
+          
           </div>
         </section>
       </main>
