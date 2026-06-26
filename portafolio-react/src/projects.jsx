@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const misProyectos = [
+  
   { id: 1, titulo: "Gestión Médica AI-KOI", categoria: "uiux", desc: "Optimización de flujos..." },
   { id: 2, titulo: "Cajero Automático", categoria: "backend", desc: "Lógica POO en Java..." },
   { id: 3, titulo: "Baraja de Cartas", categoria: "backend", desc: "Manejo de colecciones..." },

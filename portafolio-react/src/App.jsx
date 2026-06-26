@@ -19,6 +19,7 @@ import code from "./assets/code.png";
 import firebase from "./assets/firebase.png";
 //Proyectos
 import gestion from "./assets/fundacion.png";
+import wireframe from"./assets/WIREFRAME.png";
 //importamos una nueva pagina
 import Projects from "./projects.jsx";
 
@@ -190,85 +191,121 @@ function Home() {
             />
           </div>
         </section>
-
-        {/* Sección de Proyectos */}
         <div
           className="flex flex-col gap-8 max-w-4xl mx-auto mt-12"
           id="projects"
         >
-          <Link to="/projects" className="block">
+          <Link /*to="/projects"*/ className="block">
             <h3 className="text-3xl font-bold border-b border-white/10 pb-4 mb-10 text-orange-400 hover:text-white transition-colors cursor-pointer">
               PROYECTOS
             </h3>
           </Link>
-
-          {/* Tarjeta 1 */}
-          <div className="mx-auto w-full max-w-md overflow-hidden rounded-3xl bg-white shadow-md md:max-w-3xl">
+          {/* Sección de Proyectos */}
+          <div className="mx-auto w-full max-w-md overflow-hidden rounded-3xl bg-white shadow-md md:max-w-3xl mt-6">
             <div className="md:flex">
               <div className="md:shrink-0">
                 <img
                   className="h-48 w-full object-cover md:h-full md:w-55"
                   src={gestion}
-                  alt="fundacion AI-KOI"
+                  alt="Sistema de Gestión de Pacientes"
                 />
               </div>
               <div className="p-8">
                 <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
-                  Fundacion AI-KOI
+                  Proyecto Personal
                 </div>
                 <a
-                  href="#"
+                  href="https://github.com/Axeljesus9/SistemaMedico"
+                  target="_blank"
+                  rel="noreferrer"
                   className="mt-1 block text-lg leading-tight font-medium text-black hover:underline"
                 >
-                  Desarrollo de Gestión Médico
+                  Sistema de Gestión de Pacientes
                 </a>
                 <p className="mt-2 text-gray-500">
                   En este proyecto estuve realizando un sistema de gestión de
                   pacientes, con el fin de optimizar los beneficiarios de la
                   fundación y tengan una mejor experiencia y respuesta con el
-                  médico correspondiente.
+                  médico correspondiente
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="mx-auto w-full max-w-md overflow-hidden rounded-3xl bg-white shadow-md md:max-w-3xl mt-6">
+            <div className="md:flex">
+              <div className="md:shrink-0">
+                <img
+                  className="h-48 w-full object-cover md:h-full md:w-55"
+                  src={wireframe}
+                  alt="Estructura Web en Figma"
+                />
+              </div>
+              <div className="p-8">
+                <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
+                  Arquitectura de Información & UI
+                </div>
+                <a
+                  href="https://www.figma.com/design/fM5BfAYRck6PnTxdvuoPmi/Untitled?t=7dDh9iz3N7xgFNV4-0"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-1 block text-lg leading-tight font-medium text-black hover:underline"
+                >
+                  Wireframe de Landing Page - Tech Dev
+                </a>
+                <p className="mt-2 text-gray-500">
+                  Estructuración y diseño de una Landing Page corporativa
+                  utilizando grillas de alineación (*Layout Grids*) en Figma.
+                  Proyecto enfocado en la distribución de bloques informativos,
+                  componentes de navegación y jerarquía visual para optimizar la
+                  retención de usuarios en la plataforma.
                 </p>
               </div>
             </div>
           </div>
 
-          {/* Tarjetas de Proyectos Personales */}
-          {[
-            "Cajero Automatico en Java",
-            "Baraja de Cartas en Java",
-            "Sistema de Ventas en Java",
-          ].map((title, idx) => (
-            <div
-              key={idx}
-              className="mx-auto w-full max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-3xl"
-            >
-              <div className="md:flex">
-                <div className="md:shrink-0">
-                  <img
-                    className="h-48 w-full object-cover md:h-full md:w-48"
-                    src="/img/building.jpg"
-                    alt="Project presentation"
-                  />
-                </div>
-                <div className="p-8">
-                  <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
-                    Proyecto personal
-                  </div>
-                  <a
-                    href="#"
-                    className="mt-1 block text-lg leading-tight font-medium text-black hover:underline"
-                  >
-                    {title}
-                  </a>
-                  <p className="mt-2 text-gray-500">
-                    {idx === 2
-                      ? "En este proyecto se realizó un sistema de ventas enfocado en el progreso de mis habilidades en Java, integrando conexión a bases de datos y próximamente Spring Boot."
-                      : "Proyecto enfocado en poner a prueba conocimientos avanzados en Java y optimización de lógica algorítmica autolimitando el uso de librerías nativas."}
-                  </p>
-                </div>
+          {/* Tarjeta 3: Baraja de Cartas */}
+          <div className="mx-auto w-full max-w-md overflow-hidden rounded-3xl bg-white shadow-md md:max-w-3xl mt-6">
+            <div className="p-8">
+              <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
+                Proyecto Personal
               </div>
+              <a
+                href="https://github.com/Axeljesus9/java"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-1 block text-lg leading-tight font-medium text-black hover:underline"
+              >
+                Sistema de Refugio-BETA
+              </a>
+              <p className="mt-2 text-gray-500">
+                Proyecto enfocado en poner a prueba conocimientos avanzados en
+                Java y optimización de lógica algorítmica autolimitando el uso
+                de librerías nativas.
+              </p>
             </div>
-          ))}
+          </div>
+
+          {/* Tarjeta 4: Sistema de Ventas */}
+          <div className="mx-auto w-full max-w-md overflow-hidden rounded-3xl bg-white shadow-md md:max-w-3xl mt-6">
+            <div className="p-8">
+              <div className="text-sm font-semibold tracking-wide text-indigo-500 uppercase">
+                Proyecto Personal
+              </div>
+              <a
+                href="https://github.com/Axeljesus9/System-Ventas"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-1 block text-lg leading-tight font-medium text-black hover:underline"
+              >
+                Sistema de Ventas en Java-BETA
+              </a>
+              <p className="mt-2 text-gray-500">
+                En este proyecto se realizó un sistema de ventas enfocado en el
+                progreso de mis habilidades en Java, integrando conexión a bases
+                de datos y próximamente Spring Boot.
+              </p>
+            </div>
+          </div>
         </div>
 
         <section className="py-16 max-w-4xl mx-auto" id="skills">
@@ -436,8 +473,6 @@ function Home() {
                 profesional.
               </p>
             </div>
-
-          
           </div>
         </section>
       </main>
